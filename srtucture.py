@@ -20,7 +20,7 @@ Age = input("entrez votre age :")
 Age = int(Age)
 print("--------------Interface de connexion---------------")
 
-#ser_id=input("entrez votre identifiant : ")
+#user_id=input("entrez votre identifiant : ")
 #user_pass=input("entrez votre password : ")
 #letrre_hasard= input("entrez votre letrre : ")
 """
