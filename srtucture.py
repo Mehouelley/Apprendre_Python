@@ -38,15 +38,15 @@ else:{
     print(letrre_hasard," est un consomne")
 }
 """
-if (Age > 0 and Age<18):{
+if (Age > 0 and Age<18):
     print("tu es mineur")
-}
-elif(Age==18):{
+
+elif(Age==18):
     print("tu es majeur")
-}
-elif(Age>18 and Age<=100):{
+
+elif(Age>18 and Age<=100):
     print("tu viellir")
-}
-else:{
+
+else:
     print("lq mort te guette")
-}
+
