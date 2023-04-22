@@ -4,7 +4,7 @@ Fonctions vues   : print()= afficher un texte
                    input()=saisir une valeur
                     type()=type de la valeur
                     int(),float(),str(),bool() = convertir une valeur(castrage)
-                    format()=formater une valeur c'
+                   
 
 """
 #print("Bonjour à vous ! :)" )
