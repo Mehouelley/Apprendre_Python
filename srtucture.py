@@ -48,5 +48,5 @@ elif(Age>18 and Age<=100):
     print("tu viellir")
 
 else:
-    print("lq mort te guette")
+    print("la mort te guette")
 

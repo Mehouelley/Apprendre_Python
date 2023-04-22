@@ -17,7 +17,10 @@ Fonctions vues : print("")-> afficher du texte
                  int(),float(),str(),bool() -> "caster" une donner 
                  str.format()-> formater une chaine de caractere
 """
+#declaration des variables
+#declarer une variable entier numerique
 AgePersonne=12
+#declarer une variable chaine de caractere
 AgePersonne2="25"
 #PrixHts=input('quel est le prix')
 #PrixHts= int(PrixHts)
@@ -32,6 +35,7 @@ ContinuePartie2=False
 print(type(AgePersonne2));
 print(type(PrixHts));
 print(type(ContinuePartie));"""
+#
 texte="l'age de la personne est {} et le prit vaut {}$"
 #print(texte.format(AgePersonne,PrixHts));
 #print("bienvenue ",NomJoueur,"tu as acces a ton terminal")
