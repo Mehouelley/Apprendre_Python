@@ -11,7 +11,15 @@ Fonctions vues   : print()= afficher un texte
 # age=input("Quel est votre age ?")
 # age=int(age)
 # print("Vous avez {} ans".format(age))
-
+"""
+  la declaration d'une fonction en pythons commence par def puis le nom de la fonction par exemple
+  def dire_bonjour():
+     print("Bonjour à vous ! :)" )
+  si elle prend des parametre alors elle devient
+  def dire1(nom_persenne,message ):
+    print("{} : {}".format(nom_persenne,message))
+  
+"""
 # def dire_bonjour():
 #     print("Bonjour à vous ! :)" )
 # #je ne suis plus dans la fonction
