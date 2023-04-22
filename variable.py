@@ -22,6 +22,8 @@ Fonctions vues : print("")-> afficher du texte
 AgePersonne=12
 #declarer une variable chaine de caractere
 AgePersonne2="25"
+#AgePersonne2=int(AgePersonne2)
+AgePersonne3=AgePersonne + int(AgePersonne2)
 #PrixHts=input('quel est le prix')
 #PrixHts= int(PrixHts)
 #PrixTtc= PrixHts + (PrixHts*20/100)
@@ -43,6 +45,7 @@ ContinuePartie= int(ContinuePartie)
 ContinuePartie2= int(ContinuePartie2)
 print(ContinuePartie)
 print(ContinuePartie2)
+print(AgePersonne3)
 
 
 

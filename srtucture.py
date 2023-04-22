@@ -16,8 +16,8 @@ Condition multiples       : and (ET)
 """
 identifiant="Fabrice"
 mot_de_passe = "password1234"
-Age = input("entrez votre age :")
-Age = int(Age)
+#Age = input("entrez votre age :")
+#Age = int(Age)
 print("--------------Interface de connexion---------------")
 
 #user_id=input("entrez votre identifiant : ")
@@ -30,13 +30,15 @@ if(user_id==identifiant and user_pass==mot_de_passe):{
 else:{
  print("information incorect")
 }
-if(letrre_hasard in "aeiouy"):{
-    print(letrre_hasard," est un voyelle")
-}
-else:{
+"""
 
+letrre_hasard= input("entrez votre letrre : ")
+if(letrre_hasard not in "aeiouy"):
     print(letrre_hasard," est un consomne")
-}
+
+else:
+    print(letrre_hasard," est un voyelle")
+
 """
 if (Age > 0 and Age<18):
     print("tu es mineur")
@@ -50,3 +52,4 @@ elif(Age>18 and Age<=100):
 else:
     print("la mort te guette")
 
+"""
