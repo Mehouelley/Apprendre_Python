@@ -4,7 +4,7 @@ Fonctions vues   : print()= afficher un texte
                    input()=saisir une valeur
                     type()=type de la valeur
                     int(),float(),str(),bool() = convertir une valeur(castrage)
-                    format()=formater une valeur c'
+                    
 
 """
 #print("Bonjour à vous ! :)" )
@@ -62,4 +62,17 @@ def compare_nombres(nombre1,nombre2):
     elif nombre1<nombre2:
         return nombre2
     else:
-        return "Les deux nombres sont égaux"
+        return "Les deux nombres sont égaux" 
+    
+#je ne suis plus dans la fonction
+print(compare_nombres(5,6))
+
+"""
+Avec pytons on peut definir des fonction lambda
+une fonction lambda est une fonction anonyme pour ce que je sais
+"""
+cc=lambda:print("Bonjour à vous ! :)" )
+cc()
+ttc=lambda prix_ht: prix_ht + (prix_ht*20/100)
+print(ttc(100))
+calculer=lambda nombre1,nombre2: nombre1+nombre2
