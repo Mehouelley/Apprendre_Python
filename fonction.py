@@ -4,9 +4,6 @@ Fonctions vues   : print()= afficher un texte
                    input()=saisir une valeur
                     type()=type de la valeur
                     int(),float(),str(),bool() = convertir une valeur(castrage)
-<<<<<<< HEAD
-                    
-=======
                     
 >>>>>>> ddc15a1c57cd7032ed2da1e02ba15dbb0967f1ea
 
