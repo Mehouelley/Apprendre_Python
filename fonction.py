@@ -4,14 +4,26 @@ Fonctions vues   : print()= afficher un texte
                    input()=saisir une valeur
                     type()=type de la valeur
                     int(),float(),str(),bool() = convertir une valeur(castrage)
+<<<<<<< HEAD
                     
+=======
+                    
+>>>>>>> ddc15a1c57cd7032ed2da1e02ba15dbb0967f1ea
 
 """
 #print("Bonjour à vous ! :)" )
 # age=input("Quel est votre age ?")
 # age=int(age)
 # print("Vous avez {} ans".format(age))
-
+"""
+  la declaration d'une fonction en pythons commence par def puis le nom de la fonction par exemple
+  def dire_bonjour():
+     print("Bonjour à vous ! :)" )
+  si elle prend des parametre alors elle devient
+  def dire1(nom_persenne,message ):
+    print("{} : {}".format(nom_persenne,message))
+  
+"""
 # def dire_bonjour():
 #     print("Bonjour à vous ! :)" )
 # #je ne suis plus dans la fonction
